@@ -8,7 +8,7 @@ const RestaurentItem = props => {
   const {rating} = userRating
   return (
     <Link to={`/restaurant/${id}`} className="restaurant-item-nav-link">
-      <li className="Restaurant-list-item" data-testid="restaurant-item">
+      <li className="Restaurant-list-item" testid="restaurant-item">
         <div className="restaurant-details">
           <img
             src={imgUrl}

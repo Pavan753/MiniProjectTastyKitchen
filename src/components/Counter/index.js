@@ -15,16 +15,16 @@ class Counter extends Component {
     return (
       <div className="cart-counter">
         <button
-          data-testid="decrement-quantity"
+          testid="decrement-quantity"
           type="button"
           className="inc-btn"
           onClick={onclickdecBtn}
         >
           -
         </button>
-        <div data-testid="item-quantity">{quantity}</div>
+        <div testid="item-quantity">{quantity}</div>
         <button
-          data-testid="increment-quantity"
+          testid="increment-quantity"
           type="button"
           className="inc-btn"
           onClick={onclickBtn}

@@ -37,7 +37,7 @@ export default class ReactSlider extends Component {
 
   renderLoadingView = () => (
     <div
-      data-testid="restaurants-offers-loader"
+      testid="restaurants-offers-loader"
       className="products-loader-container"
     >
       <Loader type="TailSpin" color="#0b69ff" height="50" width="50" />

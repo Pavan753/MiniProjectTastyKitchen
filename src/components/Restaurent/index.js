@@ -129,15 +129,15 @@ export default class Restaurents extends Component {
           <button
             type="button"
             onClick={this.onDecreasePageno}
-            data-testid="pagination-left-button"
+            testid="pagination-left-button"
           >
             <BiChevronLeftSquare size={20} />
           </button>
-          <p data-testid="active-page-number">{count} of 20</p>
+          <p testid="active-page-number">{count} of 20</p>
           <button
             type="button"
             onClick={this.onIncreasePageno}
-            data-testid="pagination-right-button"
+            testid="pagination-right-button"
           >
             <BiChevronRightSquare size={20} />
           </button>
